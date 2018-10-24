@@ -61,12 +61,8 @@ export default {
             img: item.photos[0].url,
             name: item.name,
             comment: Math.floor(Math.random()*10000),
-<<<<<<< HEAD
             rate: Number(item.biz_ext.rating),
             price: Number(item.biz_ext.cost),
-=======
-            rate: Number(item.biz_ext.cost),
->>>>>>> 70a6d5319dbbe431d7db6d13dd676f9e59d87d85
             scene: item.tag,
             tel: item.tel,
             status: '可订明日',
