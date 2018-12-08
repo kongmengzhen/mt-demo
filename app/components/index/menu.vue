@@ -16,8 +16,7 @@
       class="detail"
       @mouseenter="sover"
       @mouseleave="sout">
-      <template
-        v-for="(item,idx) in curdetail.child">
+      <template v-for="(item,idx) in curdetail.child">
         <h4 :key="idx">{{ item.title }}</h4>
         <span
           v-for="v in item.child"

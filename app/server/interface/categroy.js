@@ -1,10 +1,10 @@
 import Router from 'koa-router';
 import axios from './utils/axios'
+import sign from './utils/sign'
 import Province from '../dbs/models/province'
 
 let router = new Router({prefix: '/categroy'})
 
-const sign = 'abcd';
 
 router.get('/crumbs',async (ctx)=>{
 
