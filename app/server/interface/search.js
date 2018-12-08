@@ -5,6 +5,7 @@ import sign from './utils/sign'
 
 let router = new Router({prefix: '/search'})
 
+
 router.get('/top', async (ctx) => {
   // try {
   //   let top = await Poi.find({
