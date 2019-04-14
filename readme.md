@@ -24,6 +24,8 @@ npm install nuxt@1.4.2
 
 ### 2. 获取不到线上数据
 
+大家下载源码之后一定要修改自己的 sign，把 server/utils/sign.js 中的sign变量填写自己的签名
+
 为了保证正版用户的权益，必须用签名才能使用我们线上数据，获取签名地址：http://cp-tools.cn/sign
 
 ### 3. 离线数据库
