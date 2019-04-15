@@ -10,7 +10,7 @@
           <a href="/login">
             <el-button
               type="primary"
-              size="small">登录</el-button>
+              size="small">登录--demo</el-button>
           </a>
         </span>
       </header>
